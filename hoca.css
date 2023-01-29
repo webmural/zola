@@ -1,0 +1,30 @@
+.halo {
+  font-size: max(2em, 10vw);
+  font-family: monospace;
+}
+
+.hair {
+  margin: auto;
+  overflow-wrap: anywhere;
+  padding: 1ch;
+  border-radius: 10% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aloha {
+  font-family: sans-serif;
+  font-weight: inherit;
+  margin: 0;
+  margin-block-end: 1em;
+}
+
+:focus {
+  outline: thick groove;
+  text-shadow: -1vw 0 0, 0 -1vh 0;
+}
+
+article a {
+  display: table;
+}
